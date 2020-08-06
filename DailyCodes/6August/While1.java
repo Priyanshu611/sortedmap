@@ -1,0 +1,23 @@
+class While1 {
+
+	public static void main(String[] args){
+
+		int num = 135;
+		int sum = 0;
+		int rem = 0;
+		int var = num;
+
+		while(num!=0){
+
+			rem = num % 10;
+			sum = sum + rem;
+			num = num/10;
+
+		}
+
+		System.out.println("Sum of digits of " + var + " is " + sum);
+
+	}
+
+
+}
