@@ -22,7 +22,7 @@ class Program1{
 
 			}
 
-			ch-=(row-1);                    
+			ch-=row;                    
 			System.out.println();
 			                            
 
